@@ -1,3 +1,5 @@
+board=[]
+
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
@@ -7,8 +9,6 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
-board=[]
-
 def input_to_index(input)
   index = input.to_i - 1
 end
